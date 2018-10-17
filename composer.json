@@ -1,0 +1,37 @@
+{
+    "name":        "demopay/module-payment",
+    "description": "N/A",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "payment"
+    ],
+    "homepage":    "https://www.abcxyz.com",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Test user",
+            "email": "technic@abcxyz.com"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "oe/demopay"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "oe\\demopay\\": "../../../source/modules/oe/demopay"
+       }
+    }
+}
+
+
