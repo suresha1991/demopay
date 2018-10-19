@@ -17,11 +17,7 @@ $aModule = array(
     'author'      => 'demopay',
     'url'         => 'https://www.abcxyz.com',
     'email'       => 'technic@abcxyz.com',
-    'extend'      => array(
-     \OxidEsales\Eshop\Application\Controller\PaymentController::class        => \oe\demopay\Controller\PaymentController::class,
-     \OxidEsales\Eshop\Application\Model\PaymentGateway::class                => \oe\demopay\Model\PaymentGateway::class,
-     \OxidEsales\Eshop\Application\Model\Order::class                         => \oe\demopay\Model\Order::class,
-     
+    'extend'      => array(   
     ),
     'controllers'       => array(),
     'files'       => array(),
